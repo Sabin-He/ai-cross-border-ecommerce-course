@@ -1,0 +1,18 @@
+# Local history and editor state
+.history/
+.qoder/
+
+# Browser automation output
+.playwright-mcp/
+output/
+
+# Python cache and local runtime files
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.coverage
+
+# OS metadata
+.DS_Store
+Thumbs.db

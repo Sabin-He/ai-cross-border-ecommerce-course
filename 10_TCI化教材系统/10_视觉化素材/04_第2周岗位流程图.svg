@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 460" role="img" aria-labelledby="title desc">
+  <title id="title">第 2 周岗位流程图</title>
+  <desc id="desc">展示第 2 周如何把 AI 放进岗位流程。</desc>
+  <defs><style>.bg{fill:#f7fafc}.box{fill:#fff;stroke:#d8e1e8;stroke-width:2}.h{font:700 28px "Microsoft YaHei",Arial;fill:#17212b}.t{font:700 17px "Microsoft YaHei",Arial;fill:#1f2933}.s{font:400 14px "Microsoft YaHei",Arial;fill:#5f6f7f}.lane{fill:#e7f6ee}.arrow{stroke:#6b7b8c;stroke-width:3;fill:none;marker-end:url(#a)}</style><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7b8c"/></marker></defs>
+  <rect class="bg" width="1080" height="460" rx="18"/>
+  <text class="h" x="540" y="54" text-anchor="middle">第 2 周：把 AI 放进岗位流程</text>
+  <rect class="lane" x="80" y="105" width="920" height="70" rx="14"/><text class="t" x="130" y="148">岗位动作</text><text class="s" x="285" y="148">评论整理、广告复盘、客服回复、运营周报、SOP</text>
+  <g transform="translate(100 235)">
+    <rect class="box" width="160" height="95" rx="12"/><text class="t" x="80" y="38" text-anchor="middle">找重复动作</text><text class="s" x="80" y="66" text-anchor="middle">高频、可检查</text>
+    <path class="arrow" d="M175 48 H235"/>
+    <g transform="translate(250 0)"><rect class="box" width="160" height="95" rx="12"/><text class="t" x="80" y="38" text-anchor="middle">准备输入</text><text class="s" x="80" y="66" text-anchor="middle">脱敏资料</text></g>
+    <path class="arrow" d="M425 48 H485"/>
+    <g transform="translate(500 0)"><rect class="box" width="160" height="95" rx="12"/><text class="t" x="80" y="38" text-anchor="middle">AI 出初稿</text><text class="s" x="80" y="66" text-anchor="middle">整理、起草、分类</text></g>
+    <path class="arrow" d="M675 48 H735"/>
+    <g transform="translate(750 0)"><rect class="box" width="160" height="95" rx="12"/><text class="t" x="80" y="38" text-anchor="middle">人工复核</text><text class="s" x="80" y="66" text-anchor="middle">事实、规则、风险</text></g>
+  </g>
+  <rect x="350" y="375" width="380" height="52" rx="26" fill="#e7f1fa"/>
+  <text class="t" x="540" y="407" text-anchor="middle">最终留下：岗位 AI 实战包</text>
+</svg>

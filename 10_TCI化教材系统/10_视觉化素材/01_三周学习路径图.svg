@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">三周学习路径图</title>
+  <desc id="desc">展示课程三周从安全使用 AI 到岗位实战，再到真实项目落地的递进关系。</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7fafc}.card{fill:#fff;stroke:#d8e1e8;stroke-width:2}.h{font:700 28px "Microsoft YaHei",Arial,sans-serif;fill:#17212b}.t{font:600 18px "Microsoft YaHei",Arial,sans-serif;fill:#1f2933}.s{font:400 15px "Microsoft YaHei",Arial,sans-serif;fill:#5f6f7f}.pill{fill:#e7f1fa}.arrow{stroke:#6b7b8c;stroke-width:4;fill:none;marker-end:url(#a)}.num{font:700 18px Arial,sans-serif;fill:#fff}
+    </style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#6b7b8c"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1120" height="520" rx="18"/>
+  <text class="h" x="560" y="58" text-anchor="middle">AI 跨境电商效能提升实战课：三周学习路径</text>
+  <text class="s" x="560" y="90" text-anchor="middle">先安全使用，再进入岗位，最后完成一个真实小项目</text>
+  <g transform="translate(70 145)">
+    <rect class="card" width="280" height="250" rx="16"/>
+    <circle cx="45" cy="44" r="22" fill="#2368a2"/><text class="num" x="45" y="50" text-anchor="middle">1</text>
+    <text class="t" x="82" y="42">第 1 周</text>
+    <text class="s" x="82" y="70">个人基础提效</text>
+    <rect class="pill" x="28" y="102" width="224" height="34" rx="17"/><text class="s" x="140" y="124" text-anchor="middle">边界清楚</text>
+    <rect class="pill" x="28" y="148" width="224" height="34" rx="17"/><text class="s" x="140" y="170" text-anchor="middle">提示词说清楚</text>
+    <rect class="pill" x="28" y="194" width="224" height="34" rx="17"/><text class="s" x="140" y="216" text-anchor="middle">留下基础提效包</text>
+  </g>
+  <path class="arrow" d="M375 270 H455"/>
+  <g transform="translate(470 145)">
+    <rect class="card" width="280" height="250" rx="16"/>
+    <circle cx="45" cy="44" r="22" fill="#2f7d5a"/><text class="num" x="45" y="50" text-anchor="middle">2</text>
+    <text class="t" x="82" y="42">第 2 周</text>
+    <text class="s" x="82" y="70">岗位 AI 实战</text>
+    <rect class="pill" x="28" y="102" width="224" height="34" rx="17"/><text class="s" x="140" y="124" text-anchor="middle">找出重复动作</text>
+    <rect class="pill" x="28" y="148" width="224" height="34" rx="17"/><text class="s" x="140" y="170" text-anchor="middle">嵌入岗位流程</text>
+    <rect class="pill" x="28" y="194" width="224" height="34" rx="17"/><text class="s" x="140" y="216" text-anchor="middle">形成岗位实战包</text>
+  </g>
+  <path class="arrow" d="M775 270 H855"/>
+  <g transform="translate(870 145)">
+    <rect class="card" width="280" height="250" rx="16"/>
+    <circle cx="45" cy="44" r="22" fill="#8a5a2b"/><text class="num" x="45" y="50" text-anchor="middle">3</text>
+    <text class="t" x="82" y="42">第 3 周</text>
+    <text class="s" x="82" y="70">真实项目落地</text>
+    <rect class="pill" x="28" y="102" width="224" height="34" rx="17"/><text class="s" x="140" y="124" text-anchor="middle">选一个小项目</text>
+    <rect class="pill" x="28" y="148" width="224" height="34" rx="17"/><text class="s" x="140" y="170" text-anchor="middle">做 v1 改 v2</text>
+    <rect class="pill" x="28" y="194" width="224" height="34" rx="17"/><text class="s" x="140" y="216" text-anchor="middle">沉淀落地成果包</text>
+  </g>
+  <text class="s" x="560" y="455" text-anchor="middle">核心动作：看见问题 → 拆成动作 → 借助 AI → 得到反馈 → 固化模板</text>
+</svg>

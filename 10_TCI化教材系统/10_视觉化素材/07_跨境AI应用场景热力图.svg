@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="0 0 1080 720" role="img" aria-labelledby="title desc">
+  <title id="title">跨境 AI 应用场景热力图</title>
+  <desc id="desc">按风险和可检查性展示跨境电商常见 AI 应用场景的优先级。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcf8; }
+      .title { font: 700 34px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #697166; }
+      .axis { font: 700 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #343a31; }
+      .cell-title { font: 700 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #20231f; }
+      .item { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #343a31; }
+      .tag { font: 700 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; }
+      .low { fill: #d9f0df; stroke: #8fc49c; }
+      .mid { fill: #fff0c8; stroke: #d6aa45; }
+      .high { fill: #ffe0d5; stroke: #d48c73; }
+      .deep { fill: #f3c0b4; stroke: #b66556; }
+      .tag-green { fill: #3e8f6c; }
+      .tag-yellow { fill: #b88425; }
+      .tag-red { fill: #a94f43; }
+      .grid { stroke-width: 2; rx: 18; }
+      .arrow { stroke: #596057; stroke-width: 3; marker-end: url(#arrowHead); }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#596057"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1080" height="720"/>
+  <text class="title" x="70" y="70">跨境 AI 应用场景热力图</text>
+  <text class="subtitle" x="70" y="106">先做低风险、可检查、重复多的场景；高风险场景只让 AI 做整理和草拟。</text>
+
+  <line class="arrow" x1="210" y1="630" x2="900" y2="630"/>
+  <text class="axis" x="505" y="668">结果可检查性：低 → 高</text>
+  <line class="arrow" x1="120" y1="570" x2="120" y2="175"/>
+  <text class="axis" x="42" y="375" transform="rotate(-90 42 375)">业务风险：低 → 高</text>
+
+  <g transform="translate(190,160)">
+    <rect class="grid low" x="0" y="220" width="260" height="170"/>
+    <rect class="tag-green" x="20" y="240" width="86" height="28" rx="14"/>
+    <text class="tag" x="38" y="260">优先做</text>
+    <text class="cell-title" x="20" y="296">低风险 + 易检查</text>
+    <text class="item" x="20" y="326">评论分类、标题候选</text>
+    <text class="item" x="20" y="352">周报初稿、资料归纳</text>
+
+    <rect class="grid mid" x="300" y="220" width="260" height="170"/>
+    <rect class="tag-green" x="320" y="240" width="104" height="28" rx="14"/>
+    <text class="tag" x="338" y="260">适合练习</text>
+    <text class="cell-title" x="320" y="296">低风险 + 高可查</text>
+    <text class="item" x="320" y="326">产品理解卡、FAQ 草稿</text>
+    <text class="item" x="320" y="352">SOP 初稿、复盘摘要</text>
+
+    <rect class="grid mid" x="0" y="20" width="260" height="170"/>
+    <rect class="tag-yellow" x="20" y="40" width="104" height="28" rx="14"/>
+    <text class="tag" x="38" y="60">谨慎辅助</text>
+    <text class="cell-title" x="20" y="96">中高风险 + 难检查</text>
+    <text class="item" x="20" y="126">客户争议判断</text>
+    <text class="item" x="20" y="152">品牌承诺、政策解释</text>
+
+    <rect class="grid high" x="300" y="20" width="260" height="170"/>
+    <rect class="tag-yellow" x="320" y="40" width="104" height="28" rx="14"/>
+    <text class="tag" x="338" y="60">人先判断</text>
+    <text class="cell-title" x="320" y="96">高风险 + 可检查</text>
+    <text class="item" x="320" y="126">广告预算建议</text>
+    <text class="item" x="320" y="152">Listing 上线前审核</text>
+
+    <rect class="grid deep" x="600" y="20" width="260" height="370"/>
+    <rect class="tag-red" x="620" y="40" width="104" height="28" rx="14"/>
+    <text class="tag" x="638" y="60">禁止代判</text>
+    <text class="cell-title" x="620" y="96">敏感或最终决策</text>
+    <text class="item" x="620" y="126">账号密码、客户隐私</text>
+    <text class="item" x="620" y="152">退款争议最终处理</text>
+    <text class="item" x="620" y="178">财务数据、平台申诉</text>
+    <text class="item" x="620" y="224">AI 只能做：</text>
+    <text class="item" x="620" y="252">资料整理、风险提示</text>
+    <text class="item" x="620" y="280">草稿生成、待确认清单</text>
+  </g>
+</svg>

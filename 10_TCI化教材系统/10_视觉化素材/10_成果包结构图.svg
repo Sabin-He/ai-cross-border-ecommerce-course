@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="0 0 1080 720" role="img" aria-labelledby="title desc">
+  <title id="title">个人 AI 落地成果包结构图</title>
+  <desc id="desc">展示结营成果包应包含首页、过程证据、可复用模板、复盘与下一步计划。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcf8; }
+      .title { font: 700 34px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #6b7168; }
+      .center { fill: #25352e; stroke: #25352e; stroke-width: 2; rx: 20; }
+      .center-title { font: 700 23px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; text-anchor: middle; }
+      .center-note { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #e4ece1; text-anchor: middle; }
+      .box { fill: #ffffff; stroke-width: 2; rx: 18; }
+      .box1 { stroke: #3e8f6c; }
+      .box2 { stroke: #3d77a6; }
+      .box3 { stroke: #c16b3d; }
+      .box4 { stroke: #aa709b; }
+      .box-title { font: 700 19px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #232822; }
+      .box-item { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #535c50; }
+      .pill { fill: #f2f5ef; stroke: #d9e1d5; rx: 14; }
+      .pill-text { font: 700 14px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #4d5749; }
+      .link { stroke: #aab5a4; stroke-width: 2.5; fill: none; marker-end: url(#arrowHead); }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#aab5a4"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1080" height="720"/>
+  <text class="title" x="70" y="70">个人 AI 落地成果包结构图</text>
+  <text class="subtitle" x="70" y="106">结营不是交心得，而是用交付物、版本变化和下一步计划证明能力。</text>
+
+  <rect class="center" x="385" y="280" width="310" height="150"/>
+  <text class="center-title" x="540" y="330">个人 AI 落地成果包</text>
+  <text class="center-note" x="540" y="360">一页首页 + 一条项目链路</text>
+  <text class="center-note" x="540" y="388">可复用模板 + 7 天计划</text>
+
+  <path class="link" d="M385 315 C300 290 270 235 245 200"/>
+  <path class="link" d="M695 315 C780 290 810 235 835 200"/>
+  <path class="link" d="M385 395 C300 420 270 475 245 520"/>
+  <path class="link" d="M695 395 C780 420 810 475 835 520"/>
+
+  <rect class="box box1" x="70" y="150" width="320" height="150"/>
+  <rect class="pill" x="95" y="176" width="96" height="30"/>
+  <text class="pill-text" x="117" y="197">入口</text>
+  <text class="box-title" x="95" y="236">成果包首页</text>
+  <text class="box-item" x="95" y="264">项目名称、目标、角色</text>
+  <text class="box-item" x="95" y="286">一段克制的成果摘要</text>
+
+  <rect class="box box2" x="690" y="150" width="320" height="150"/>
+  <rect class="pill" x="715" y="176" width="110" height="30"/>
+  <text class="pill-text" x="737" y="197">证据</text>
+  <text class="box-title" x="715" y="236">过程版本链路</text>
+  <text class="box-item" x="715" y="264">选择表、拆解表、v1</text>
+  <text class="box-item" x="715" y="286">反馈记录、v2 修改说明</text>
+
+  <rect class="box box3" x="70" y="500" width="320" height="150"/>
+  <rect class="pill" x="95" y="526" width="110" height="30"/>
+  <text class="pill-text" x="117" y="547">复用</text>
+  <text class="box-title" x="95" y="586">可复用模板</text>
+  <text class="box-item" x="95" y="614">固定字段、可变字段</text>
+  <text class="box-item" x="95" y="636">使用说明和人工检查点</text>
+
+  <rect class="box box4" x="690" y="500" width="320" height="150"/>
+  <rect class="pill" x="715" y="526" width="110" height="30"/>
+  <text class="pill-text" x="737" y="547">持续</text>
+  <text class="box-title" x="715" y="586">复盘与 7 天计划</text>
+  <text class="box-item" x="715" y="614">学到什么、哪里要改</text>
+  <text class="box-item" x="715" y="636">下一个小项目和触发场景</text>
+</svg>

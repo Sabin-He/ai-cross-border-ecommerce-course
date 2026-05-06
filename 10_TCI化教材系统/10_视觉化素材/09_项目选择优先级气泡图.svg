@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="0 0 1080 720" role="img" aria-labelledby="title desc">
+  <title id="title">项目选择优先级气泡图</title>
+  <desc id="desc">按真实程度、可完成度和复用价值展示第 3 周落地项目选择优先级。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fafcf8; }
+      .title { font: 700 34px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #6b7168; }
+      .axis { stroke: #848d7f; stroke-width: 2.5; marker-end: url(#arrowHead); }
+      .grid { stroke: #d7ddd2; stroke-width: 1; }
+      .axis-label { font: 700 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #343a31; }
+      .bubble-label { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #1f241d; text-anchor: middle; }
+      .bubble-note { font: 400 13px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #343a31; text-anchor: middle; }
+      .b1 { fill: rgba(62,143,108,0.72); stroke: #2f6f54; stroke-width: 2; }
+      .b2 { fill: rgba(61,119,166,0.68); stroke: #2e5d82; stroke-width: 2; }
+      .b3 { fill: rgba(193,107,61,0.68); stroke: #995631; stroke-width: 2; }
+      .b4 { fill: rgba(196,159,57,0.55); stroke: #9f8030; stroke-width: 2; }
+      .b5 { fill: rgba(170,112,155,0.44); stroke: #895a7c; stroke-width: 2; }
+      .zone { fill: rgba(62,143,108,0.08); stroke: #7eb394; stroke-dasharray: 8 8; stroke-width: 2; rx: 20; }
+      .zone-label { font: 700 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #367457; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#848d7f"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1080" height="720"/>
+  <text class="title" x="70" y="70">项目选择优先级气泡图</text>
+  <text class="subtitle" x="70" y="106">优先选择真实、可一周完成、后续能复用的小项目。气泡越大，复用价值越高。</text>
+
+  <g transform="translate(150,150)">
+    <line class="grid" x1="0" y1="400" x2="820" y2="400"/>
+    <line class="grid" x1="0" y1="300" x2="820" y2="300"/>
+    <line class="grid" x1="0" y1="200" x2="820" y2="200"/>
+    <line class="grid" x1="0" y1="100" x2="820" y2="100"/>
+    <line class="grid" x1="205" y1="0" x2="205" y2="460"/>
+    <line class="grid" x1="410" y1="0" x2="410" y2="460"/>
+    <line class="grid" x1="615" y1="0" x2="615" y2="460"/>
+    <rect class="zone" x="420" y="30" width="360" height="210"/>
+    <text class="zone-label" x="600" y="66" text-anchor="middle">第 3 周优先项目区</text>
+    <line class="axis" x1="0" y1="460" x2="850" y2="460"/>
+    <line class="axis" x1="0" y1="460" x2="0" y2="-20"/>
+    <text class="axis-label" x="342" y="520">可完成度：低 → 高</text>
+    <text class="axis-label" x="-96" y="235" transform="rotate(-90 -96 235)">真实业务价值：低 → 高</text>
+
+    <circle class="b1" cx="650" cy="120" r="76"/>
+    <text class="bubble-label" x="650" y="104">客服 FAQ</text>
+    <text class="bubble-note" x="650" y="128">重复多</text>
+    <text class="bubble-note" x="650" y="148">可复用</text>
+
+    <circle class="b2" cx="550" cy="185" r="66"/>
+    <text class="bubble-label" x="550" y="174">周报模板</text>
+    <text class="bubble-note" x="550" y="198">每周固定</text>
+
+    <circle class="b3" cx="705" cy="265" r="58"/>
+    <text class="bubble-label" x="705" y="254">Listing 审核</text>
+    <text class="bubble-note" x="705" y="278">上线前检查</text>
+
+    <circle class="b4" cx="375" cy="255" r="50"/>
+    <text class="bubble-label" x="375" y="246">广告复盘</text>
+    <text class="bubble-note" x="375" y="270">需数据支持</text>
+
+    <circle class="b5" cx="250" cy="350" r="44"/>
+    <text class="bubble-label" x="250" y="342">大促方案</text>
+    <text class="bubble-note" x="250" y="365">范围偏大</text>
+  </g>
+</svg>

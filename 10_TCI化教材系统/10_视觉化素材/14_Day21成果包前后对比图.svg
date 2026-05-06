@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Day21 成果包前后对比图</title>
+  <desc id="desc">展示 Day21 从零散材料到个人 AI 落地成果包的输入、AI 初稿、人工修改和交付物。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcf8; }
+      .title { font: 700 32px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #687166; }
+      .card { fill: #ffffff; stroke: #d9e1d5; stroke-width: 1.6; rx: 18; }
+      .head { font: 700 19px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; }
+      .label { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #263026; }
+      .item { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #4f5a4b; }
+      .note { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #554667; }
+      .bar1 { fill: #6f7f9b; }
+      .bar2 { fill: #3d77a6; }
+      .bar3 { fill: #c16b3d; }
+      .bar4 { fill: #3e8f6c; }
+      .arrow { stroke: #aab5a4; stroke-width: 3; fill: none; marker-end: url(#arrowHead); }
+      .stack { fill: #f2f5ef; stroke: #d5ded2; rx: 10; }
+      .stack-text { font: 700 13px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #4a5845; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#aab5a4"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1120" height="640"/>
+  <text class="title" x="60" y="64">Day21 成果包：从零散作业到证据链</text>
+  <text class="subtitle" x="60" y="100">AI 可以帮助整理首页，人要补足证据、版本变化和下一步计划，避免只写心得。</text>
+
+  <g transform="translate(60,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar1" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">1. 零散材料</text>
+    <rect class="stack" x="24" y="76" width="150" height="30"/>
+    <text class="stack-text" x="44" y="97">项目选择表</text>
+    <rect class="stack" x="40" y="118" width="150" height="30"/>
+    <text class="stack-text" x="60" y="139">项目拆解表</text>
+    <rect class="stack" x="56" y="160" width="150" height="30"/>
+    <text class="stack-text" x="76" y="181">v1 和反馈</text>
+    <rect class="stack" x="72" y="202" width="150" height="30"/>
+    <text class="stack-text" x="92" y="223">v2 和模板</text>
+    <text class="item" x="24" y="282">还有 7 天计划</text>
+  </g>
+
+  <path class="arrow" d="M307 315 H360"/>
+
+  <g transform="translate(370,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar2" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">2. AI 初稿</text>
+    <text class="label" x="24" y="82">整理首页</text>
+    <text class="item" x="24" y="116">起点问题</text>
+    <text class="item" x="24" y="146">做过的动作</text>
+    <text class="item" x="24" y="176">v1 到 v2 变化</text>
+    <text class="item" x="24" y="206">可复用模板</text>
+    <text class="item" x="24" y="236">下一步计划</text>
+    <text class="item" x="24" y="286">形成一页摘要</text>
+  </g>
+
+  <path class="arrow" d="M617 315 H670"/>
+
+  <g transform="translate(680,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar3" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">3. 人工修改</text>
+    <text class="label" x="24" y="82">补证据</text>
+    <text class="item" x="24" y="116">链接到交付物</text>
+    <text class="item" x="24" y="146">写清修改理由</text>
+    <text class="item" x="24" y="176">删掉夸大表达</text>
+    <text class="item" x="24" y="206">补下一项目</text>
+    <text class="label" x="24" y="258">检查口径</text>
+    <text class="item" x="24" y="288">真实、克制、可验证</text>
+  </g>
+
+  <path class="arrow" d="M927 315 H980"/>
+
+  <g transform="translate(990,150)">
+    <rect class="card" x="0" y="0" width="70" height="330"/>
+    <rect class="bar4" x="0" y="0" width="70" height="46" rx="18"/>
+    <text class="head" x="16" y="30">4.</text>
+    <text class="label" x="15" y="82">落地</text>
+    <text class="label" x="15" y="108">成果包</text>
+    <text class="item" x="15" y="148">首页</text>
+    <text class="item" x="15" y="176">证据</text>
+    <text class="item" x="15" y="204">版本</text>
+    <text class="item" x="15" y="232">模板</text>
+    <text class="item" x="15" y="260">计划</text>
+  </g>
+
+  <text class="note" x="60" y="555">核心判断：成果包不是心得合集，而是能被别人检查、复用和继续迭代的证据链。</text>
+</svg>

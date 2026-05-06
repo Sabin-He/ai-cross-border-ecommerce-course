@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">提示词质量评分雷达图</title>
+  <desc id="desc">用六个维度展示提示词从模糊到可复用的质量判断方式。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fcfbf7; }
+      .title { font: 700 34px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #6b6f68; }
+      .grid { fill: none; stroke: #d8ded4; stroke-width: 1.5; }
+      .axis { stroke: #b7c0b1; stroke-width: 1.2; }
+      .poly { fill: rgba(62,143,108,0.34); stroke: #3e8f6c; stroke-width: 4; }
+      .weak { fill: rgba(193,107,61,0.16); stroke: #c16b3d; stroke-width: 3; stroke-dasharray: 6 8; }
+      .label { font: 700 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #2c332a; }
+      .score { font: 400 14px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #626b5f; }
+      .legend { font: 600 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #343a31; }
+      .dot-good { fill: #3e8f6c; }
+      .dot-weak { fill: #c16b3d; }
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="720"/>
+  <text class="title" x="60" y="68">提示词质量评分雷达图</text>
+  <text class="subtitle" x="60" y="104">好提示词不是写得长，而是让 AI 知道任务、边界、格式和复核点。</text>
+
+  <g transform="translate(450,385)">
+    <polygon class="grid" points="0,-220 190,-110 190,110 0,220 -190,110 -190,-110"/>
+    <polygon class="grid" points="0,-176 152,-88 152,88 0,176 -152,88 -152,-88"/>
+    <polygon class="grid" points="0,-132 114,-66 114,66 0,132 -114,66 -114,-66"/>
+    <polygon class="grid" points="0,-88 76,-44 76,44 0,88 -76,44 -76,-44"/>
+    <polygon class="grid" points="0,-44 38,-22 38,22 0,44 -38,22 -38,-22"/>
+    <line class="axis" x1="0" y1="0" x2="0" y2="-230"/>
+    <line class="axis" x1="0" y1="0" x2="199" y2="-115"/>
+    <line class="axis" x1="0" y1="0" x2="199" y2="115"/>
+    <line class="axis" x1="0" y1="0" x2="0" y2="230"/>
+    <line class="axis" x1="0" y1="0" x2="-199" y2="115"/>
+    <line class="axis" x1="0" y1="0" x2="-199" y2="-115"/>
+    <polygon class="weak" points="0,-75 78,-45 70,40 0,70 -62,36 -70,-40"/>
+    <polygon class="poly" points="0,-195 164,-95 156,90 0,178 -150,86 -160,-92"/>
+  </g>
+
+  <text class="label" x="418" y="136">背景清楚</text>
+  <text class="score" x="423" y="160">平台 / 产品 / 用户</text>
+  <text class="label" x="660" y="260">任务单一</text>
+  <text class="score" x="660" y="284">一次只做一件事</text>
+  <text class="label" x="660" y="510">输出格式</text>
+  <text class="score" x="660" y="534">表格 / 清单 / 字数</text>
+  <text class="label" x="414" y="644">人工复核</text>
+  <text class="score" x="407" y="668">列出待确认项</text>
+  <text class="label" x="120" y="510">约束边界</text>
+  <text class="score" x="105" y="534">不编造 / 不夸大</text>
+  <text class="label" x="118" y="260">输入材料</text>
+  <text class="score" x="100" y="284">事实和样例完整</text>
+
+  <circle class="dot-good" cx="615" cy="128" r="8"/>
+  <text class="legend" x="632" y="134">可复用提示词</text>
+  <circle class="dot-weak" cx="615" cy="158" r="8"/>
+  <text class="legend" x="632" y="164">模糊提示词</text>
+</svg>

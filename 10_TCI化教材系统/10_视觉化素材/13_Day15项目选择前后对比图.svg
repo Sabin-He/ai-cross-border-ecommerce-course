@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Day15 项目选择前后对比图</title>
+  <desc id="desc">展示 Day15 从候选项目到落地项目选择表的输入、AI 初稿、人工修改和交付物。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcf8; }
+      .title { font: 700 32px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #687166; }
+      .card { fill: #ffffff; stroke: #d9e1d5; stroke-width: 1.6; rx: 18; }
+      .head { font: 700 19px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; }
+      .label { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #263026; }
+      .item { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #4f5a4b; }
+      .note { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #6a4a2b; }
+      .bar1 { fill: #b88425; }
+      .bar2 { fill: #3d77a6; }
+      .bar3 { fill: #c16b3d; }
+      .bar4 { fill: #3e8f6c; }
+      .arrow { stroke: #aab5a4; stroke-width: 3; fill: none; marker-end: url(#arrowHead); }
+      .small { font: 700 14px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; }
+      .dot1 { fill: #3e8f6c; }
+      .dot2 { fill: #c49f39; }
+      .dot3 { fill: #c16b3d; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#aab5a4"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1120" height="640"/>
+  <text class="title" x="60" y="64">Day15 项目选择：从想做很多到只做一个</text>
+  <text class="subtitle" x="60" y="100">AI 帮忙比较候选项目，人负责收敛范围，最终只选择一个一周内能完成的小项目。</text>
+
+  <g transform="translate(60,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar1" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">1. 候选输入</text>
+    <circle class="dot1" cx="38" cy="92" r="14"/>
+    <text class="small" x="34" y="98">1</text>
+    <text class="item" x="62" y="98">客服 FAQ 库</text>
+    <circle class="dot2" cx="38" cy="142" r="14"/>
+    <text class="small" x="34" y="148">2</text>
+    <text class="item" x="62" y="148">广告复盘 SOP</text>
+    <circle class="dot3" cx="38" cy="192" r="14"/>
+    <text class="small" x="34" y="198">3</text>
+    <text class="item" x="62" y="198">全面改造流程</text>
+    <text class="label" x="24" y="256">补充背景</text>
+    <text class="item" x="24" y="286">岗位、痛点、资料状态</text>
+  </g>
+
+  <path class="arrow" d="M307 315 H360"/>
+
+  <g transform="translate(370,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar2" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">2. AI 初稿</text>
+    <text class="label" x="24" y="82">四维评分</text>
+    <text class="item" x="24" y="116">价值：高 / 中 / 低</text>
+    <text class="item" x="24" y="146">难度：高 / 中 / 低</text>
+    <text class="item" x="24" y="176">资料：足 / 部分 / 不足</text>
+    <text class="item" x="24" y="206">周期：7 天可完成？</text>
+    <text class="label" x="24" y="258">输出建议</text>
+    <text class="item" x="24" y="288">标出范围过大项目</text>
+  </g>
+
+  <path class="arrow" d="M617 315 H670"/>
+
+  <g transform="translate(680,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar3" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">3. 人工修改</text>
+    <text class="label" x="24" y="82">收敛范围</text>
+    <text class="item" x="24" y="116">只保留一个项目</text>
+    <text class="item" x="24" y="146">写清使用者</text>
+    <text class="item" x="24" y="176">写清本周不做什么</text>
+    <text class="item" x="24" y="206">确认资料可脱敏</text>
+    <text class="label" x="24" y="258">最终决定</text>
+    <text class="item" x="24" y="288">人确认价值和边界</text>
+  </g>
+
+  <path class="arrow" d="M927 315 H980"/>
+
+  <g transform="translate(990,150)">
+    <rect class="card" x="0" y="0" width="70" height="330"/>
+    <rect class="bar4" x="0" y="0" width="70" height="46" rx="18"/>
+    <text class="head" x="16" y="30">4.</text>
+    <text class="label" x="15" y="82">项目</text>
+    <text class="label" x="15" y="108">选择表</text>
+    <text class="item" x="15" y="148">价值</text>
+    <text class="item" x="15" y="176">难度</text>
+    <text class="item" x="15" y="204">资料</text>
+    <text class="item" x="15" y="232">周期</text>
+    <text class="item" x="15" y="260">边界</text>
+  </g>
+
+  <text class="note" x="60" y="555">核心判断：第 3 周不是证明能做大项目，而是证明能把一个真实小项目做完。</text>
+</svg>

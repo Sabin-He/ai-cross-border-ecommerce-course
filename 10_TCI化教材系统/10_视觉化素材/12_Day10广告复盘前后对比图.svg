@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Day10 广告复盘前后对比图</title>
+  <desc id="desc">展示 Day10 从脱敏广告数据到广告数据复盘表的输入、AI 初稿、人工修改和交付物。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcf8; }
+      .title { font: 700 32px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #687166; }
+      .card { fill: #ffffff; stroke: #d9e1d5; stroke-width: 1.6; rx: 18; }
+      .head { font: 700 19px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; }
+      .label { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #263026; }
+      .item { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #4f5a4b; }
+      .note { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #5f4c2c; }
+      .bar1 { fill: #607d9b; }
+      .bar2 { fill: #3d77a6; }
+      .bar3 { fill: #c16b3d; }
+      .bar4 { fill: #3e8f6c; }
+      .arrow { stroke: #aab5a4; stroke-width: 3; fill: none; marker-end: url(#arrowHead); }
+      .metric { fill: #eef3f8; stroke: #d6e0ea; rx: 9; }
+      .metric-text { font: 700 13px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #38556e; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#aab5a4"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1120" height="640"/>
+  <text class="title" x="60" y="64">Day10 广告复盘：从数据现象到可执行动作</text>
+  <text class="subtitle" x="60" y="100">AI 帮忙整理现象和假设，人回到业务现场核对证据，预算动作仍由人负责。</text>
+
+  <g transform="translate(60,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar1" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">1. 输入数据</text>
+    <rect class="metric" x="24" y="75" width="78" height="34"/>
+    <text class="metric-text" x="40" y="97">曝光</text>
+    <rect class="metric" x="114" y="75" width="78" height="34"/>
+    <text class="metric-text" x="136" y="97">点击</text>
+    <rect class="metric" x="24" y="124" width="78" height="34"/>
+    <text class="metric-text" x="48" y="146">花费</text>
+    <rect class="metric" x="114" y="124" width="78" height="34"/>
+    <text class="metric-text" x="136" y="146">加购</text>
+    <rect class="metric" x="24" y="173" width="78" height="34"/>
+    <text class="metric-text" x="48" y="195">订单</text>
+    <rect class="metric" x="114" y="173" width="78" height="34"/>
+    <text class="metric-text" x="136" y="195">销售额</text>
+    <text class="item" x="24" y="252">素材 A/B/C 备注</text>
+    <text class="item" x="24" y="282">周期：7 天</text>
+  </g>
+
+  <path class="arrow" d="M307 315 H360"/>
+
+  <g transform="translate(370,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar2" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">2. AI 初稿</text>
+    <text class="label" x="24" y="82">先分四类</text>
+    <text class="item" x="24" y="116">现象：点击高、订单少</text>
+    <text class="item" x="24" y="146">假设：购买理由弱</text>
+    <text class="item" x="24" y="176">证据：需看页面评论</text>
+    <text class="item" x="24" y="206">动作：列 3 个以内</text>
+    <text class="label" x="24" y="258">标注猜测</text>
+    <text class="item" x="24" y="288">不直接下结论</text>
+  </g>
+
+  <path class="arrow" d="M617 315 H670"/>
+
+  <g transform="translate(680,150)">
+    <rect class="card" x="0" y="0" width="235" height="330"/>
+    <rect class="bar3" x="0" y="0" width="235" height="46" rx="18"/>
+    <text class="head" x="24" y="30">3. 人工修改</text>
+    <text class="label" x="24" y="82">回到现场</text>
+    <text class="item" x="24" y="116">看视频前 3 秒</text>
+    <text class="item" x="24" y="146">查落地页价格库存</text>
+    <text class="item" x="24" y="176">看评论和受众设置</text>
+    <text class="item" x="24" y="206">确认数据周期</text>
+    <text class="label" x="24" y="258">最终判断</text>
+    <text class="item" x="24" y="288">人决定预算动作</text>
+  </g>
+
+  <path class="arrow" d="M927 315 H980"/>
+
+  <g transform="translate(990,150)">
+    <rect class="card" x="0" y="0" width="70" height="330"/>
+    <rect class="bar4" x="0" y="0" width="70" height="46" rx="18"/>
+    <text class="head" x="16" y="30">4.</text>
+    <text class="label" x="15" y="82">广告</text>
+    <text class="label" x="15" y="108">复盘表</text>
+    <text class="item" x="15" y="148">指标</text>
+    <text class="item" x="15" y="176">异常</text>
+    <text class="item" x="15" y="204">假设</text>
+    <text class="item" x="15" y="232">证据</text>
+    <text class="item" x="15" y="260">动作</text>
+  </g>
+
+  <text class="note" x="60" y="555">核心判断：AI 可以提出假设和动作清单，但不能替人决定“加钱还是停掉”。</text>
+</svg>

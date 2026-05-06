@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">AI 使用边界矩阵</title>
+  <desc id="desc">用风险和可检查性判断工作动作是否适合交给 AI。</desc>
+  <defs><style>.bg{fill:#f7fafc}.axis{stroke:#7d8b99;stroke-width:3}.grid{fill:#fff;stroke:#d8e1e8;stroke-width:2}.h{font:700 28px "Microsoft YaHei",Arial;fill:#17212b}.t{font:700 20px "Microsoft YaHei",Arial;fill:#1f2933}.s{font:400 15px "Microsoft YaHei",Arial;fill:#5f6f7f}.good{fill:#e7f6ee}.mid{fill:#fff4df}.bad{fill:#fbe8e8}</style></defs>
+  <rect class="bg" width="960" height="560" rx="18"/>
+  <text class="h" x="480" y="54" text-anchor="middle">AI 使用边界矩阵</text>
+  <text class="s" x="480" y="86" text-anchor="middle">先看风险，再看结果能不能检查</text>
+  <g transform="translate(160 125)">
+    <rect class="grid good" x="0" y="0" width="300" height="160" rx="12"/>
+    <rect class="grid mid" x="320" y="0" width="300" height="160" rx="12"/>
+    <rect class="grid mid" x="0" y="180" width="300" height="160" rx="12"/>
+    <rect class="grid bad" x="320" y="180" width="300" height="160" rx="12"/>
+    <text class="t" x="150" y="44" text-anchor="middle">可让 AI 起草</text>
+    <text class="s" x="150" y="78" text-anchor="middle">低风险，可检查</text>
+    <text class="s" x="150" y="110" text-anchor="middle">评论分类、周报初稿</text>
+    <text class="t" x="470" y="44" text-anchor="middle">AI 辅助，人判断</text>
+    <text class="s" x="470" y="78" text-anchor="middle">低风险，但检查难</text>
+    <text class="s" x="470" y="110" text-anchor="middle">卖点候选、素材方向</text>
+    <text class="t" x="150" y="224" text-anchor="middle">AI 整理，人复核</text>
+    <text class="s" x="150" y="258" text-anchor="middle">风险较高，但可检查</text>
+    <text class="s" x="150" y="290" text-anchor="middle">广告复盘假设、客服草稿</text>
+    <text class="t" x="470" y="224" text-anchor="middle">不可交给 AI 决定</text>
+    <text class="s" x="470" y="258" text-anchor="middle">高风险，且难检查</text>
+    <text class="s" x="470" y="290" text-anchor="middle">预算、退款争议、账号信息</text>
+  </g>
+  <text class="s" x="470" y="505" text-anchor="middle">横轴：结果越难检查，越要保守</text>
+  <text class="s" x="56" y="300" transform="rotate(-90 56 300)" text-anchor="middle">纵轴：风险越高，越要人工负责</text>
+</svg>

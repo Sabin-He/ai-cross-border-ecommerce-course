@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">Day03 产品理解前后对比图</title>
+  <desc id="desc">展示 Day03 从产品资料到产品理解卡的输入、AI 初稿、人工修改和交付物。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfcf8; }
+      .title { font: 700 32px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #222720; }
+      .subtitle { font: 400 17px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #687166; }
+      .card { fill: #ffffff; stroke: #d9e1d5; stroke-width: 1.6; rx: 18; }
+      .head { font: 700 19px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #ffffff; }
+      .label { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #263026; }
+      .item { font: 400 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #4f5a4b; }
+      .note { font: 700 16px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #385f49; }
+      .bar1 { fill: #7a9f71; }
+      .bar2 { fill: #3d77a6; }
+      .bar3 { fill: #c16b3d; }
+      .bar4 { fill: #3e8f6c; }
+      .arrow { stroke: #aab5a4; stroke-width: 3; fill: none; marker-end: url(#arrowHead); }
+      .pill { fill: #eef5ee; stroke: #cfdccf; rx: 14; }
+      .pill-text { font: 700 14px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #3c5f48; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#aab5a4"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1120" height="640"/>
+  <text class="title" x="60" y="64">Day03 产品理解：从参数到可表达卖点</text>
+  <text class="subtitle" x="60" y="100">AI 先把资料整理成初稿，人负责删除无证据表达，最后形成可支撑 Listing 的产品理解卡。</text>
+
+  <g transform="translate(60,150)">
+    <rect class="card" x="0" y="0" width="230" height="330"/>
+    <rect class="bar1" x="0" y="0" width="230" height="46" rx="18"/>
+    <text class="head" x="24" y="30">1. 输入资料</text>
+    <text class="label" x="24" y="82">宠物除毛刷</text>
+    <text class="item" x="24" y="116">适合猫狗毛发</text>
+    <text class="item" x="24" y="146">可拆卸刷头</text>
+    <text class="item" x="24" y="176">便于清洁</text>
+    <text class="item" x="24" y="206">握柄设计</text>
+    <text class="item" x="24" y="236">图片说明和参数</text>
+    <rect class="pill" x="24" y="270" width="152" height="30"/>
+    <text class="pill-text" x="42" y="291">只输入可验证事实</text>
+  </g>
+
+  <path class="arrow" d="M302 315 H360"/>
+
+  <g transform="translate(370,150)">
+    <rect class="card" x="0" y="0" width="230" height="330"/>
+    <rect class="bar2" x="0" y="0" width="230" height="46" rx="18"/>
+    <text class="head" x="24" y="30">2. AI 初稿</text>
+    <text class="label" x="24" y="82">整理三列</text>
+    <text class="item" x="24" y="116">用户痛点</text>
+    <text class="item" x="24" y="146">产品事实</text>
+    <text class="item" x="24" y="176">可表达卖点</text>
+    <text class="label" x="24" y="226">标出不确定</text>
+    <text class="item" x="24" y="258">适用范围</text>
+    <text class="item" x="24" y="288">效果表达</text>
+  </g>
+
+  <path class="arrow" d="M612 315 H670"/>
+
+  <g transform="translate(680,150)">
+    <rect class="card" x="0" y="0" width="230" height="330"/>
+    <rect class="bar3" x="0" y="0" width="230" height="46" rx="18"/>
+    <text class="head" x="24" y="30">3. 人工修改</text>
+    <text class="label" x="24" y="82">必须检查</text>
+    <text class="item" x="24" y="116">卖点是否有事实</text>
+    <text class="item" x="24" y="146">用户是否太泛</text>
+    <text class="item" x="24" y="176">是否写成效果承诺</text>
+    <text class="item" x="24" y="206">是否编造认证数据</text>
+    <rect class="pill" x="24" y="270" width="156" height="30"/>
+    <text class="pill-text" x="42" y="291">删除无证据表达</text>
+  </g>
+
+  <path class="arrow" d="M922 315 H980"/>
+
+  <g transform="translate(990,150)">
+    <rect class="card" x="0" y="0" width="70" height="330"/>
+    <rect class="bar4" x="0" y="0" width="70" height="46" rx="18"/>
+    <text class="head" x="16" y="30">4.</text>
+    <text class="label" x="16" y="82">产品</text>
+    <text class="label" x="16" y="108">理解卡</text>
+    <text class="item" x="16" y="148">人</text>
+    <text class="item" x="16" y="176">场</text>
+    <text class="item" x="16" y="204">痛</text>
+    <text class="item" x="16" y="232">证</text>
+    <text class="item" x="16" y="260">卖</text>
+  </g>
+
+  <text class="note" x="60" y="555">核心判断：卖点必须能回到产品事实，不能把可能的使用感受写成确定承诺。</text>
+</svg>

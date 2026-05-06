@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 520" role="img" aria-labelledby="title desc">
+  <title id="title">第 3 周项目落地闭环</title>
+  <desc id="desc">展示第 3 周从选项目到成果包的闭环。</desc>
+  <defs><style>.bg{fill:#f7fafc}.node{fill:#fff;stroke:#d8e1e8;stroke-width:2}.h{font:700 28px "Microsoft YaHei",Arial;fill:#17212b}.t{font:700 16px "Microsoft YaHei",Arial;fill:#1f2933}.s{font:400 13px "Microsoft YaHei",Arial;fill:#5f6f7f}.arrow{stroke:#6b7b8c;stroke-width:3;fill:none;marker-end:url(#a)}</style><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7b8c"/></marker></defs>
+  <rect class="bg" width="1080" height="520" rx="18"/>
+  <text class="h" x="540" y="56" text-anchor="middle">第 3 周：真实项目落地闭环</text>
+  <text class="s" x="540" y="88" text-anchor="middle">只做一个小项目：能完成、能反馈、能复用</text>
+  <g transform="translate(150 145)">
+    <circle class="node" cx="120" cy="80" r="58"/><text class="t" x="120" y="75" text-anchor="middle">选项目</text><text class="s" x="120" y="100" text-anchor="middle">Day15</text>
+    <path class="arrow" d="M178 80 H265"/>
+    <circle class="node" cx="330" cy="80" r="58"/><text class="t" x="330" y="75" text-anchor="middle">拆步骤</text><text class="s" x="330" y="100" text-anchor="middle">Day16</text>
+    <path class="arrow" d="M388 80 H475"/>
+    <circle class="node" cx="540" cy="80" r="58"/><text class="t" x="540" y="75" text-anchor="middle">做 v1</text><text class="s" x="540" y="100" text-anchor="middle">Day17</text>
+    <path class="arrow" d="M598 80 H685"/>
+    <circle class="node" cx="750" cy="80" r="58"/><text class="t" x="750" y="75" text-anchor="middle">收反馈</text><text class="s" x="750" y="100" text-anchor="middle">Day18</text>
+    <path class="arrow" d="M750 138 V205"/>
+    <circle class="node" cx="750" cy="270" r="58"/><text class="t" x="750" y="265" text-anchor="middle">改 v2</text><text class="s" x="750" y="290" text-anchor="middle">Day18</text>
+    <path class="arrow" d="M692 270 H605"/>
+    <circle class="node" cx="540" cy="270" r="58"/><text class="t" x="540" y="265" text-anchor="middle">固化模板</text><text class="s" x="540" y="290" text-anchor="middle">Day19</text>
+    <path class="arrow" d="M482 270 H395"/>
+    <circle class="node" cx="330" cy="270" r="58"/><text class="t" x="330" y="265" text-anchor="middle">7 天计划</text><text class="s" x="330" y="290" text-anchor="middle">Day20</text>
+    <path class="arrow" d="M272 270 H185"/>
+    <circle class="node" cx="120" cy="270" r="58"/><text class="t" x="120" y="265" text-anchor="middle">成果包</text><text class="s" x="120" y="290" text-anchor="middle">Day21</text>
+  </g>
+  <text class="s" x="540" y="470" text-anchor="middle">关键不是做得多，而是留下 v1 → 反馈 → v2 → 模板的证据链</text>
+</svg>
